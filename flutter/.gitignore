@@ -1,0 +1,44 @@
+# Dart & Flutter defaults
+.dart_tool/
+.packages
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+
+# Android/iOS/macOS build system files
+android/.gradle/
+android/app/key.properties
+ios/
+macos/
+windows/
+linux/
+
+# VS Code & IntelliJ settings
+.vscode/
+.idea/
+*.iml
+
+# Logs & temp
+*.log
+*.tmp
+*.swp
+
+# Firebase & secrets (important)
+.env
+.env.*
+*.keystore
+*.jks
+google-services.json
+firebase_options.dart
+
+# Ignore everything in build except web & release apk
+build/*
+!build/web/
+!build/web/**
+
+# Only keep release APK
+!build/app/
+!build/app/outputs/
+!build/app/outputs/flutter-apk/
+!build/app/outputs/flutter-apk/app-release.apk

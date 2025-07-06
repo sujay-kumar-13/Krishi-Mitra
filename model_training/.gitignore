@@ -1,0 +1,49 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Environment/config
+.env
+*.env
+config.json
+
+
+# Model weights
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.pb
+*.tflite
+*.onnx
+
+# Logs and outputs
+logs/
+*.log
+*.out
+*.err
+*.cache
+*.tensorboard/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db

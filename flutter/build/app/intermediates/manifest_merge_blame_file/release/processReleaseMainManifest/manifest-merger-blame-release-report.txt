@@ -1,0 +1,230 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.krishi_mitra"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10    <!--
+11         Required to query activities that can process text, see:
+12         https://developer.android.com/training/package-visibility and
+13         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+14
+15         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+16    -->
+17    <queries>
+17-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:39:5-44:15
+18        <intent>
+18-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:40:9-43:18
+19            <action android:name="android.intent.action.PROCESS_TEXT" />
+19-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:41:13-72
+19-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:41:21-70
+20
+21            <data android:mimeType="text/plain" />
+21-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:42:13-50
+21-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:42:19-48
+22        </intent>
+23        <intent>
+23-->[:file_picker] C:\Users\sujay\AndroidStudioProjects\krishi_mitra\build\file_picker\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:9-12:18
+24            <action android:name="android.intent.action.GET_CONTENT" />
+24-->[:file_picker] C:\Users\sujay\AndroidStudioProjects\krishi_mitra\build\file_picker\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:13-72
+24-->[:file_picker] C:\Users\sujay\AndroidStudioProjects\krishi_mitra\build\file_picker\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:21-69
+25
+26            <data android:mimeType="*/*" />
+26-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:42:13-50
+26-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:42:19-48
+27        </intent>
+28    </queries>
+29
+30    <permission
+30-->[androidx.core:core:1.15.0] C:\Users\sujay\.gradle\caches\8.10.2\transforms\0a69220afb472c7b014f0ae28962f998\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+31        android:name="com.example.krishi_mitra.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+31-->[androidx.core:core:1.15.0] C:\Users\sujay\.gradle\caches\8.10.2\transforms\0a69220afb472c7b014f0ae28962f998\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+32        android:protectionLevel="signature" />
+32-->[androidx.core:core:1.15.0] C:\Users\sujay\.gradle\caches\8.10.2\transforms\0a69220afb472c7b014f0ae28962f998\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+33
+34    <uses-permission android:name="com.example.krishi_mitra.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+34-->[androidx.core:core:1.15.0] C:\Users\sujay\.gradle\caches\8.10.2\transforms\0a69220afb472c7b014f0ae28962f998\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+34-->[androidx.core:core:1.15.0] C:\Users\sujay\.gradle\caches\8.10.2\transforms\0a69220afb472c7b014f0ae28962f998\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+35
+36    <application
+37        android:name="android.app.Application"
+37-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:4:9-42
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.15.0] C:\Users\sujay\.gradle\caches\8.10.2\transforms\0a69220afb472c7b014f0ae28962f998\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+39        android:extractNativeLibs="true"
+40        android:icon="@mipmap/ic_launcher"
+40-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:5:9-43
+41        android:label="krishi_mitra" >
+41-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:3:9-37
+42        <activity
+42-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:6:9-27:20
+43            android:name="com.sujay.apps.krishimitra.MainActivity"
+43-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:7:13-41
+44            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+44-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:12:13-163
+45            android:exported="true"
+45-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:8:13-36
+46            android:hardwareAccelerated="true"
+46-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:13:13-47
+47            android:launchMode="singleTop"
+47-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:9:13-43
+48            android:taskAffinity=""
+48-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:10:13-36
+49            android:theme="@style/LaunchTheme"
+49-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:11:13-47
+50            android:windowSoftInputMode="adjustResize" >
+50-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:14:13-55
+51
+52            <!--
+53                 Specifies an Android theme to apply to this Activity as soon as
+54                 the Android process has started. This theme is visible to the user
+55                 while the Flutter UI initializes. After that, this theme continues
+56                 to determine the Window background behind the Flutter UI.
+57            -->
+58            <meta-data
+58-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:19:13-22:17
+59                android:name="io.flutter.embedding.android.NormalTheme"
+59-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:20:15-70
+60                android:resource="@style/NormalTheme" />
+60-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:21:15-52
+61
+62            <intent-filter>
+62-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:23:13-26:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:24:17-68
+63-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:24:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:25:17-76
+65-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:25:27-74
+66            </intent-filter>
+67        </activity>
+68        <!--
+69             Don't delete the meta-data below.
+70             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+71        -->
+72        <meta-data
+72-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:30:9-32:33
+73            android:name="flutterEmbedding"
+73-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:31:13-44
+74            android:value="2" />
+74-->C:\Users\sujay\AndroidStudioProjects\krishi_mitra\android\app\src\main\AndroidManifest.xml:32:13-30
+75
+76        <provider
+76-->[:image_picker_android] C:\Users\sujay\AndroidStudioProjects\krishi_mitra\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:9-17:20
+77            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+77-->[:image_picker_android] C:\Users\sujay\AndroidStudioProjects\krishi_mitra\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:10:13-82
+78            android:authorities="com.example.krishi_mitra.flutter.image_provider"
+78-->[:image_picker_android] C:\Users\sujay\AndroidStudioProjects\krishi_mitra\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:13-74
+79            android:exported="false"
+79-->[:image_picker_android] C:\Users\sujay\AndroidStudioProjects\krishi_mitra\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:12:13-37
+80            android:grantUriPermissions="true" >
+80-->[:image_picker_android] C:\Users\sujay\AndroidStudioProjects\krishi_mitra\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:13:13-47
+81            <meta-data
+81-->[:image_picker_android] C:\Users\sujay\AndroidStudioProjects\krishi_mitra\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:14:13-16:75
+82                android:name="android.support.FILE_PROVIDER_PATHS"
+82-->[:image_picker_android] C:\Users\sujay\AndroidStudioProjects\krishi_mitra\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:17-67
+83                android:resource="@xml/flutter_image_picker_file_paths" />
+83-->[:image_picker_android] C:\Users\sujay\AndroidStudioProjects\krishi_mitra\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:16:17-72
+84        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+85        <service
+85-->[:image_picker_android] C:\Users\sujay\AndroidStudioProjects\krishi_mitra\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:19:9-31:19
+86            android:name="com.google.android.gms.metadata.ModuleDependencies"
+86-->[:image_picker_android] C:\Users\sujay\AndroidStudioProjects\krishi_mitra\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:20:13-78
+87            android:enabled="false"
+87-->[:image_picker_android] C:\Users\sujay\AndroidStudioProjects\krishi_mitra\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:21:13-36
+88            android:exported="false" >
+88-->[:image_picker_android] C:\Users\sujay\AndroidStudioProjects\krishi_mitra\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:22:13-37
+89            <intent-filter>
+89-->[:image_picker_android] C:\Users\sujay\AndroidStudioProjects\krishi_mitra\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:24:13-26:29
+90                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+90-->[:image_picker_android] C:\Users\sujay\AndroidStudioProjects\krishi_mitra\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:25:17-94
+90-->[:image_picker_android] C:\Users\sujay\AndroidStudioProjects\krishi_mitra\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:25:25-91
+91            </intent-filter>
+92
+93            <meta-data
+93-->[:image_picker_android] C:\Users\sujay\AndroidStudioProjects\krishi_mitra\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:28:13-30:36
+94                android:name="photopicker_activity:0:required"
+94-->[:image_picker_android] C:\Users\sujay\AndroidStudioProjects\krishi_mitra\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:29:17-63
+95                android:value="" />
+95-->[:image_picker_android] C:\Users\sujay\AndroidStudioProjects\krishi_mitra\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:30:17-33
+96        </service>
+97
+98        <provider
+98-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\sujay\.gradle\caches\8.10.2\transforms\9a58102024d2bac5d1ee1e1203812678\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
+99            android:name="androidx.startup.InitializationProvider"
+99-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\sujay\.gradle\caches\8.10.2\transforms\9a58102024d2bac5d1ee1e1203812678\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:25:13-67
+100            android:authorities="com.example.krishi_mitra.androidx-startup"
+100-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\sujay\.gradle\caches\8.10.2\transforms\9a58102024d2bac5d1ee1e1203812678\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:26:13-68
+101            android:exported="false" >
+101-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\sujay\.gradle\caches\8.10.2\transforms\9a58102024d2bac5d1ee1e1203812678\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:27:13-37
+102            <meta-data
+102-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\sujay\.gradle\caches\8.10.2\transforms\9a58102024d2bac5d1ee1e1203812678\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+103                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+103-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\sujay\.gradle\caches\8.10.2\transforms\9a58102024d2bac5d1ee1e1203812678\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+104                android:value="androidx.startup" />
+104-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\sujay\.gradle\caches\8.10.2\transforms\9a58102024d2bac5d1ee1e1203812678\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+105            <meta-data
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+106                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+107                android:value="androidx.startup" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+108        </provider>
+109
+110        <uses-library
+110-->[androidx.window:window:1.2.0] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+111            android:name="androidx.window.extensions"
+111-->[androidx.window:window:1.2.0] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+112            android:required="false" />
+112-->[androidx.window:window:1.2.0] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+113        <uses-library
+113-->[androidx.window:window:1.2.0] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+114            android:name="androidx.window.sidecar"
+114-->[androidx.window:window:1.2.0] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+115            android:required="false" />
+115-->[androidx.window:window:1.2.0] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+116
+117        <receiver
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+118            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+119            android:directBootAware="false"
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+120            android:enabled="true"
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+121            android:exported="true"
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+122            android:permission="android.permission.DUMP" >
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+124                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+127                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+128            </intent-filter>
+129            <intent-filter>
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+130                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+131            </intent-filter>
+132            <intent-filter>
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+133                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\sujay\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+134            </intent-filter>
+135        </receiver>
+136    </application>
+137
+138</manifest>
