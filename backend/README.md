@@ -80,7 +80,3 @@ By default, the app runs at: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 - Always validate and sanitize incoming data
 
 ---
-
-## 📄 License
-
-MIT License – free to use with attribution.
