@@ -4,6 +4,18 @@
 
 ---
 
+## 🌐 View Live Page
+
+- 👉 [Krishi Mitra](https://sujay-kumar-13.github.io/krishi-mitra-page/)
+
+---
+
+## 🔽 Download APK(for android)
+
+- 👉 [Krishi Mitra](https://github.com/sujay-kumar-13/krishi-mitra/raw/refs/heads/master/build/app/outputs/flutter-apk/app-release.apk)
+
+---
+
 ## 🚀 Features
 
 - 🔍 **Crop Price Trend** – Predicts upcoming crop prices using your trained ML models
@@ -93,12 +105,6 @@ cd backend
 ```bash
 python app.py
 ```
-
----
-
-## 🌐 View Live Page
-
-- 👉 [Krishi Mitra](https://sujay-kumar-13.github.io/krishi-mitra-page/)
 
 ---
 
